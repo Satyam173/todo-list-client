@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import { base_url } from '../../url';
+import { base_url } from '../url';
 
 const Register = () => {
   const navigate = useNavigate();
